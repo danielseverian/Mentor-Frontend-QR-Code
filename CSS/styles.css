@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh;
+    text-align: center;
+
+}
+
+.attribution {
+    width: 250px;
+    height: 70%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 15px;
+}
+.attribution img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.attribution p {
+    font-size: 0.9rem;
+}
